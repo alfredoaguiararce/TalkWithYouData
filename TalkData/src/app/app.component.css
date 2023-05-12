@@ -1,5 +1,8 @@
-.example-spacer {
-    flex: 1 1 auto;
+/* Progress Bar */
+.example-progress-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
   }
 
   .example-form {

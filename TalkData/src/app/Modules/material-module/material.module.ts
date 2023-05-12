@@ -7,10 +7,13 @@ import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatMenuModule} from '@angular/material/menu';
+import { ToolbarComponent } from 'src/app/Components/toolbar/toolbar.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ToolbarComponent
+  ],
   imports: [
     MatButtonModule,
     MatIconModule,
@@ -29,7 +32,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatCardModule,
     MatInputModule,
     MatProgressBarModule,
-    MatMenuModule
+    MatMenuModule,
+    ToolbarComponent
   ]
 })
 export class MaterialModule { }
