@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './Modules/material-module/material.module';
 import { LandingPageComponent } from './Components/landing-page/landing-page.component';
-import { LoginFormComponent } from './Modules/auth/Components/login-form/login-form.component';
-import { ToolbarComponent } from './Components/toolbar/toolbar.component';
 import { RouterModule } from '@angular/router';
 import { AuthModule } from './Modules/auth/auth.module';
 

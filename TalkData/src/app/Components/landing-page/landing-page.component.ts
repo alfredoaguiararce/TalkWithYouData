@@ -17,7 +17,7 @@ export class LandingPageComponent {
   }
 
   Login(){
-    this.router.navigate(['/login']);
+    this.router.navigate(['/auth']);
   }
 
 }
