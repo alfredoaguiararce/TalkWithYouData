@@ -8,11 +8,15 @@ import { MaterialModule } from './Modules/material-module/material.module';
 import { LandingPageComponent } from './Components/landing-page/landing-page.component';
 import { RouterModule } from '@angular/router';
 import { AuthModule } from './Modules/auth/auth.module';
+import { MainCardComponent } from './Components/main-card/main-card.component';
+import { HomeHeaderComponent } from './Components/home-header/home-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    MainCardComponent,
+    HomeHeaderComponent
   ],
   imports: [
     RouterModule,

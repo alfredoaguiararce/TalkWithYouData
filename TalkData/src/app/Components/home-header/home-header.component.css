@@ -1,0 +1,19 @@
+.home-header{
+    overflow: hidden;
+    position: relative;
+    height: 420px;
+    background: #3f51b5;
+}
+
+.home-header-section{
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    top: 50%;
+}
+
+@media (max-width: 1200px) {
+    .home-header{
+        height: 330px;
+    }
+}
