@@ -1,0 +1,35 @@
+<p class="fixed-navbar-header">
+    <mat-toolbar color="primary" class="mat-elevation-z6">
+      <mat-toolbar-row>
+        <span>TalkData</span>
+        <span class="spacer"></span>
+        <a mat-icon-button class="github-icon" aria-label="github icon-button with menu icon" href="https://github.com/alfredoaguiararce/TalkWithYouData" target="blank">
+          <img src="https://material.angular.io/assets/img/homepage/github-circle-white-transparent.svg" alt="Github repo">
+        </a>
+        <a mat-button  href="./auth">Login</a>
+        <!-- <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <mat-icon>dialpad</mat-icon>
+            <span>Redial</span>
+          </button>
+          <button mat-menu-item disabled>
+            <mat-icon>voicemail</mat-icon>
+            <span>Check voice mail</span>
+          </button>
+          <button mat-menu-item>
+            <mat-icon>notifications_off</mat-icon>
+            <span>Disable alerts</span>
+          </button>
+        </mat-menu> -->
+      </mat-toolbar-row>
+    </mat-toolbar>
+    
+    <mat-progress-bar *ngIf="this.ProgressbarVisibility.IsVisible"  mode="indeterminate" color="primary"></mat-progress-bar>
+  </p>
+  <mat-toolbar>
+    <mat-toolbar-row>
+    </mat-toolbar-row>
+  </mat-toolbar>
